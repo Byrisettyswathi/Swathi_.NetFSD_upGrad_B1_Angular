@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Discount Calculator</h2>
+
+<script>
+let amount = 4500;
+let discount = 0;
+
+if (amount >= 5000) {
+    discount = (20/100) * amount;
+} 
+else if (amount >= 3000) {
+    discount = (10/100) * amount;
+} 
+else {
+    discount = 0;
+}
+
+let finalAmount = amount - discount;
+
+document.write("Purchase Amount: " + amount + "<br>");
+document.write("Discount: " + discount + "<br>");
+document.write("Final Amount: " + finalAmount);
+</script>
+
+</body>
+</html>
