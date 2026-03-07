@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Registration</title>
+</head>
+
+<body>
+
+<h2 align="center">E-Learning Course Registration Form</h2> <br>
+
+<form>
+    <fieldset>
+        <legend><b>Course Enrollment Details</b></legend>
+
+        <table cellpadding="5">
+            <tr>
+                <td>Select Course:</td>
+                <td>
+                    <input list="courses">
+                    <datalist id="courses">
+                        <option value="Web Development">
+                        <option value="Java Programming">
+                        <option value="Python Basics">
+                        <option value="Data Science">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Batch Month:</td>
+                <td>
+                    <input type="month">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Preferred Session Time:</td>
+                <td>
+                    <input type="time">
+                </td>
+            </tr>
+            <tr>
+                <td>Skill Level (1 to 10):</td>
+                <td>
+                    <input type="range" min="1" max="5">
+                </td>
+            </tr>
+            <tr>
+                <td>Enrollment Progress:</td>
+                <td>
+                    <progress value="50" max="100"></progress>
+                </td>
+            </tr>
+            <tr>
+                <td>Introduction Video:</td>
+                <td>
+                    <video width="250" controls>
+                        <source src="video.mp4" type="video/mp4">
+                    </video>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Enroll Now">
+                </td>
+            </tr>
+
+        </table>
+    </fieldset>
+</form>
+
+</body>
+</html>

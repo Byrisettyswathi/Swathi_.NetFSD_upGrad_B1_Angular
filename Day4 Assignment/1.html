@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+   
+    <style>
+        
+body {
+    background-color: red;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: blue;
+        font-size: 19px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+    </style>
+</head>
+<body>
+
+<h1>Welcome to Responsive Page</h1>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<p>This page changes layout for mobile screens.</p>
+
+</body>
+</html>

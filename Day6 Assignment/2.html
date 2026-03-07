@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <h2>
+    User Information
+    </h2>
+    <form action="">
+        Name: <input type="text" id="name" onchange="validatename()"> <br> <br>
+          <p id="name-error" style="color: red;"></p>
+        Email: <input type="text" id="email" onchange="validateemail()"> <br> <br>
+          <p id="email-error" style="color: red;"></p>
+        Age: <input type="text" id="age" onchange="validateage()"> <br> <br>
+        <p id="age-error" style="color: red;"></p>
+
+        <button onclick="submitForm()">Submit</button>
+</form>
+
+    
+</body>
+
+<script>
+    function validatename() {
+        let name = document.getElementById("name").value;
+        if ( name === "") {
+            document.getElementById("name-error").innerHTML="name must be filled out";
+        } else{
+            document.getElementById("name-error").innerHTML="";
+        }
+    }
+
+    function validateemail() {
+        let email = document.getElementById("email").value;
+        if (!email.includes("@")) {
+            document.getElementById("email-error").innerHTML="email must containing @";
+        }else{
+            document.getElementById("email-error").innerHTML="";
+        }
+    }
+
+    function validateage() {
+        let age = document.getElementById("age").value;
+        if ( age === "" || age <= 18) {
+          document.getElementById("age-error").innerHTML="age must be greater than 18";
+        } else{
+            document.getElementById("age-error").innerHTML="";
+        }
+    }
+    function submitForm() {
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let age = document.getElementById("age").value;
+
+      
+        sessionStorage.setItem("name", name);
+        sessionStorage.setItem("email", email);
+        sessionStorage.setItem("age", age);
+    }
+    
+
+    
+</script>
+</html>
