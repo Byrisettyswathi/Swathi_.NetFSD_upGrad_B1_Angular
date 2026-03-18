@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Event Registration</title>
+    <script type="module" src="js/controllers/register.js"></script>
+
+</head>
+
+<body>
+
+<h2>Register For Event</h2>
+
+<form id="registerForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <br><br>
+
+    <input type="email" id="email" placeholder="Email" required>
+    <br><br>
+
+   <input type="tel" id="phone" placeholder="Enter phone number" pattern="[0-9]{10}">
+    <br><br>
+
+    <input type="number" id="eventSelect" placeholder="Event ID" required>
+    <br><br>
+
+    <button type="submit">Register</button>
+
+</form>
+</body>
+</html>
