@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Student Profile</h2>
+
+<button onclick="displayStudent()">Show Profile</button>
+<button onclick="updateMarks(90)">Update Marks</button>
+
+<p id="name"></p>
+<p id="rollNo"></p>
+<p id="marks"></p>
+
+
+
+<script>
+let student = {
+    name: "Swathi",
+    rollNo: 101,
+    marks: 75
+};
+
+function displayStudent() {
+    document.getElementById("name").innerHTML ="Name: " + student.name + "<br>" ;
+    document.getElementById("rollNo").innerHTML = "Roll No: " + student.rollNo + "<br>" ;
+    document.getElementById("marks").innerHTML = "Marks: " + student.marks;
+       
+}
+
+function updateMarks(newMarks) {
+    student.marks = newMarks;
+    displayStudent();
+}
+</script>
+
+</body>
+</html>

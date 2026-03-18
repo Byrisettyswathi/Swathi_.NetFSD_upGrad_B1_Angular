@@ -1,0 +1,23 @@
+{
+  "events": [
+    {
+      "id": "23dc",
+      "title": "JS Bootcamp",
+      "description": "To learn more about the Javascript how it interacts with the web pages",
+      "date": "2026-03-12",
+      "location": "Chennai",
+      "capacity": "200",
+      "availableSeats": "200"
+    }
+  ],
+  "registrations": [
+    {
+      "id": null,
+      "eventId": "1",
+      "participantName": "Swathi",
+      "email": "byrisettyswathi3@gmail.com",
+      "phone": "9988877890"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
