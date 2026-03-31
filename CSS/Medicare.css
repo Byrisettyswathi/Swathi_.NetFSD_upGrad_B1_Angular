@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  color: darkblue;
+}
+
+#main-header {
+  background: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+
+
+.banner {
+  text-align: center;
+  padding: 50px;
+  background: white;
+}
+
+.banner button {
+  padding: 10px 20px;
+  border: none;
+  background: darkblue;
+  color: white;
+  border-radius: 5px;
+  
+}
+
+.banner button:hover {
+  background: green;
+}
+
+.services {
+  padding: 30px;
+  text-align: center;
+}
+
+.services h2 {
+  margin-bottom: 20px;
+}
+
+.service-card {
+  display: inline-block;
+  width: 220px;
+  padding: 20px;
+  margin: 15px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background: white;
+}
+
+.services p {
+  font-size: 14px;
+  color: gray;
+}
+
+.service-card:hover {
+  background: lightyellow;
+}
+
+.doctor-card {
+  margin-top: 15px;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: darkblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: green;
+}
+
+
+
+.contact {
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  background: black;
+  color: white;
+  text-align: center;
+}

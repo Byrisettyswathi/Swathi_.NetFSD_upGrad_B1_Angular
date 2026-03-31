@@ -1,0 +1,14 @@
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\bin\Debug\net8.0\Queue.exe
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\bin\Debug\net8.0\Queue.deps.json
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\bin\Debug\net8.0\Queue.runtimeconfig.json
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\bin\Debug\net8.0\Queue.dll
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\bin\Debug\net8.0\Queue.pdb
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\obj\Debug\net8.0\Queue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\obj\Debug\net8.0\Queue.AssemblyInfoInputs.cache
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\obj\Debug\net8.0\Queue.AssemblyInfo.cs
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\obj\Debug\net8.0\Queue.csproj.CoreCompileInputs.cache
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\obj\Debug\net8.0\Queue.dll
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\obj\Debug\net8.0\refint\Queue.dll
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\obj\Debug\net8.0\Queue.pdb
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\obj\Debug\net8.0\Queue.genruntimeconfig.cache
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Queue\obj\Debug\net8.0\ref\Queue.dll
