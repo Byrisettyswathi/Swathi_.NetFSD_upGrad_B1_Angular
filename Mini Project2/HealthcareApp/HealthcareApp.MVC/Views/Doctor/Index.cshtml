@@ -1,0 +1,34 @@
+﻿@model IEnumerable<HealthcareApp.BLL.DTOs.DoctorDto>
+
+<h2 class="text-primary">Doctors</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">+ Add Doctor</a>
+</p>
+
+<table class="table table-bordered table-hover table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Name</th>
+            <th>Specialization</th>
+            <th>Available Time</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Specialization</td>
+                <td>@item.AvailableTimeSlot</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.DoctorId" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.DoctorId" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.DoctorId" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,32 @@
+﻿@model HealthcareApp.BLL.DTOs.DoctorDto
+
+<h2 class="text-success">Add Doctor</h2>
+
+<form asp-action="Create">
+    <div class="form-group mb-2">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-2">
+        <label>Specialization</label>
+        <input asp-for="Specialization" class="form-control" />
+        <span asp-validation-for="Specialization" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-2">
+        <label>Available Time Slot</label>
+        <input asp-for="AvailableTimeSlot" class="form-control" />
+        <span asp-validation-for="AvailableTimeSlot" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
