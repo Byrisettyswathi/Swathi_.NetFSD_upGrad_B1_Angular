@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Account Opening Form</title>
+</head>
+
+<body>
+
+<h2 align="center">Digital Banking Account Opening Form</h2>
+
+<form>
+    <fieldset>
+        <legend><b>Account Opening Details</b></legend>
+
+        <table cellpadding="5">
+            <tr>
+                <td>Full Name:</td>
+                <td>
+                    <input type="text" name="Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="email" >
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phone Number:</td>
+                <td>
+                    <input type="tel" pattern="[0-9]{10}" placeholder="10 digits">
+                </td>
+            </tr>
+
+            <tr>
+                <td>PAN Number:</td>
+                <td>
+                    <input type="text" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}">
+                </td>
+            </tr>
+
+            <tr>
+                <td>IFSC Code:</td>
+                <td>
+                    <input type="text"
+                           pattern="[A-Z]{4}[0-9]{7}">
+                </td>
+            </tr>
+            <tr>
+                <td>Account Type:</td>
+                <td>
+                    <input list="accountTypes">
+                    <datalist id="accountTypes">
+                        <option value="Savings">
+                        <option value="Current">
+                        <option value="Salary">
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth:</td>
+                <td>
+                    <input type="date" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Monthly Income:</td>
+                <td>
+                    <input type="number" step="5000" placeholder="Income in ₹">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Upload ID Proof:</td>
+                <td>
+                    <input type="file" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Open Account">
+                </td>
+            </tr>
+
+        </table>
+    </fieldset>
+</form>
+
+</body>
+</html>

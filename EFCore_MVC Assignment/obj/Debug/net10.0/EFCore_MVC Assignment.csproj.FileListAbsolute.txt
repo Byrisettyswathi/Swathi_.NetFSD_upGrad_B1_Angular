@@ -1,0 +1,9 @@
+D:\CTS\ASP.Net\EFCore_MVC Assignment\obj\Debug\net10.0\EFCore_MVC Assignment.csproj.AssemblyReference.cache
+D:\CTS\ASP.Net\EFCore_MVC Assignment\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\CTS\ASP.Net\EFCore_MVC Assignment\obj\Debug\net10.0\EFCore_MVC Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS\ASP.Net\EFCore_MVC Assignment\obj\Debug\net10.0\EFCore_MVC Assignment.AssemblyInfoInputs.cache
+D:\CTS\ASP.Net\EFCore_MVC Assignment\obj\Debug\net10.0\EFCore_MVC Assignment.AssemblyInfo.cs
+D:\CTS\ASP.Net\EFCore_MVC Assignment\obj\Debug\net10.0\EFCore_MVC Assignment.csproj.CoreCompileInputs.cache
+D:\CTS\ASP.Net\EFCore_MVC Assignment\obj\Debug\net10.0\EFCore_MVC Assignment.MvcApplicationPartsAssemblyInfo.cache
+D:\CTS\ASP.Net\EFCore_MVC Assignment\obj\Debug\net10.0\EFCore_MVC Assignment.RazorAssemblyInfo.cache
+D:\CTS\ASP.Net\EFCore_MVC Assignment\obj\Debug\net10.0\EFCore_MVC Assignment.RazorAssemblyInfo.cs

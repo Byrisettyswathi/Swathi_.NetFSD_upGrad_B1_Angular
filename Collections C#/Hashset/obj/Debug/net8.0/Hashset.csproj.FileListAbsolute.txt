@@ -1,0 +1,14 @@
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\bin\Debug\net8.0\Hashset.exe
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\bin\Debug\net8.0\Hashset.deps.json
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\bin\Debug\net8.0\Hashset.runtimeconfig.json
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\bin\Debug\net8.0\Hashset.dll
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\bin\Debug\net8.0\Hashset.pdb
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\obj\Debug\net8.0\Hashset.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\obj\Debug\net8.0\Hashset.AssemblyInfoInputs.cache
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\obj\Debug\net8.0\Hashset.AssemblyInfo.cs
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\obj\Debug\net8.0\Hashset.csproj.CoreCompileInputs.cache
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\obj\Debug\net8.0\Hashset.dll
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\obj\Debug\net8.0\refint\Hashset.dll
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\obj\Debug\net8.0\Hashset.pdb
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\obj\Debug\net8.0\Hashset.genruntimeconfig.cache
+C:\Users\Ashwin\Documents\Cognizant\C# DOTNET\Assignment\Collection_Assignment\Hashset\obj\Debug\net8.0\ref\Hashset.dll

@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Appointment Booking</title>
+</head>
+
+<body>
+
+<h2 align="center">Online Hospital Appointment Booking</h2>
+
+<form>
+    <fieldset>
+        <legend><b>Appointment Details</b></legend>
+
+        <table cellpadding="5">
+            <tr>
+                <td>Select Department:</td>
+                <td>
+                    <input list="departments">
+                    <datalist id="departments">
+                        <option value="Cardiology">
+                        <option value="Dermatology">
+                        <option value="Neurology">
+                        <option value="Orthopedics">
+                        <option value="Pediatrics">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>Preferred Doctor:</td>
+                <td>
+                    <input list="doctors" placeholder="Type Doctor Name">
+                    <datalist id="doctors">
+                        <option value="Dr. Kumar">
+                        <option value="Dr. Priya">
+                        <option value="Dr. Kishore">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>Appointment Date:</td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>Appointment Time:</td>
+                <td>
+                    <input type="time">
+                </td>
+            </tr>
+            <tr>
+                <td>Emergency Case:</td>
+                <td>
+                    <input type="checkbox"> Availability for Emergency
+                </td>
+            </tr>
+
+            <tr>
+                <td>Age:</td>
+                <td>
+                    <input type="number" min="2" max="60" title="age must be valid num">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phone Number:</td>
+                <td>
+                    <input type="tel" pattern="[5-9]{1}[0-9]{9}" placeholder="10 digits" title="phoneno must be 10 digits">
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="email" pattern="[a-z]{3}@{1}">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Upload Reports:</td>
+                <td>
+                    <input type="file" multiple>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Book Appointment">
+                </td>
+            </tr>
+
+        </table>
+    </fieldset>
+</form>
+
+</body>
+</html>

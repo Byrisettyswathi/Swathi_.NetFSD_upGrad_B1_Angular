@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+</head>
+<body>
+    <h2 align="center">Notes</h2>
+    <textarea name="notes" id="notes" rows="10" cols="50" placeholder="write notes"></textarea> <br> <br>
+    <button onclick="savetext()">Save</button>
+    <button onclick="cleartext()">Clear</button>
+    <button onclick="loadtext()">Load</button>
+
+    <script>
+        function savetext() {
+        let text = document.getElementById("notes").value;
+        localStorage.setItem("dailynote", text);
+        alert("Notes saved successfully!");
+    }
+
+    function loadtext() {
+        let loadtext = localStorage.getItem("dailynote");
+     if (loadtext !== null) {
+        document.getElementById("notes").value = loadtext;
+        
+    }}
+
+
+
+    function cleartext() {
+           localStorage.removeItem("dailynote");
+        document.getElementById("notes").value = "";
+      
+      }
+    </script>
+
+    
+</body>
+</html>
